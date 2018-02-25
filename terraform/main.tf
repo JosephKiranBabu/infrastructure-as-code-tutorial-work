@@ -6,7 +6,7 @@ resource "google_compute_instance" "raddit" {
   # boot disk specifications
   boot_disk {
     initialize_params {
-      image = "raddit-base" // use image built with Packer
+      image = "not-raddit-base" // use image built with Packer
     }
   }
 
